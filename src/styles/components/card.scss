@@ -1,0 +1,19 @@
+.card {
+  background-color: var(--color-black);
+  border-radius: var(--border-round);
+  box-shadow: 1px 1px 1rem black;
+
+  &__img {
+    border-radius: var(--border-round);
+    object-fit: cover;
+    padding: 0.5rem;
+    width: 16rem;
+    height: 16rem;
+    overflow: hidden;
+    transition: all 500ms ease-in-out;
+
+    &:hover {
+      scale: 1.4;
+    }
+  }
+}

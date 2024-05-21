@@ -1,0 +1,40 @@
+:root {
+  //COLORS
+  --color-black: #222;
+  --color-white: #fff;
+  --color-hyperlink: #9cffa4;
+
+  //COLORS ADV
+  --color-UI1: #61734f;
+  --color-UI2: #98a685;
+  --color-UI3: #f2e5bd;
+  --color-UI4: #d9ab82;
+  --color-UI5: #f2b591;
+
+  //BORDERS
+  --border-round: 0.5rem;
+  --border-circle: 1600rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  background-color: var(--color-UI5);
+}
+
+.sign {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+//IMPORTS
+//COMPONENTS SORTED A-Z
+@import "./components/card.scss";
+@import "./components/grid.scss";
+@import "./components/header.scss";
+@import "./components/layout.scss";
+@import "./components/navigation.scss";

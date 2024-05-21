@@ -1,0 +1,40 @@
+.header {
+  width: 100%;
+  transition: all 500ms ease-in-out;
+  @media only screen and (max-width: 600px) {
+    height: 4rem;
+  }
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: var(--color-black);
+  color: var(--color-white);
+  box-shadow: 1px 1px 2rem black;
+
+  &__img {
+    width: 5rem;
+    height: 5rem;
+    transition: all 2s ease-in-out;
+    &:hover {
+      opacity: 0;
+    }
+    @media only screen and (max-width: 1080px) {
+      width: 5rem;
+      height: 5rem;
+    }
+    @media only screen and (max-width: 780px) {
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+    @media only screen and (max-width: 600px) {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+
+  &__nav {
+    gap: 1rem;
+  }
+}
